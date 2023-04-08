@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    h1 {
+        @apply text-sm sm:text-lg md:text-2xl lg:text-4xl xl:text-6xl
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+}
